@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "target": "es2021",
+    "outDir": "./dist",
+    "strict": true,
+    "sourceMap": true,
+    "noImplicitAny": true
+  },
+  "include": ["src/*", "src/connection/index.ts"],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
